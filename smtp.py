@@ -3,6 +3,8 @@ import getpass
 
 # connection with email server
 
+# specific to gmail server only.
+
 con = smtplib.SMTP("smtp.gmail.com",587)
 
 # tl-587 is thee transport layer security
